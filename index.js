@@ -1,6 +1,6 @@
 import Leaderboard from "@patryk.rozwadowski/leaderboard";
 
-const root = document.querySelector(".root");
+const root = document.querySelector(".lb_root_example");
 
 const renderManyRows = (amountOfRows) => {
   for (let i = 0; i < amountOfRows; i++) {
@@ -33,7 +33,6 @@ const dataColumns = [
   // { name: "6", wow: "6", heheader: "6", nenee: "6", hehehehe: "6" },
 ];
 renderManyRows(10);
-console.log(dataColumns);
 // Todo: simply leaderboard to render elements faster
 
 const lb = new Leaderboard({

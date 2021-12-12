@@ -1,0 +1,24 @@
+@import "const";
+@import "mixins";
+
+
+.doc {
+  &_header_title {
+    @include setFontFamily();
+  }
+  &_header {
+    @include setFontFamily();
+  }
+  &_primary {
+    @include setFontFamily();
+  }
+  &_secondary {
+    @include setFontFamily();
+  }
+  &_code {
+    @include setFontFamily();
+  }
+
+  font-size: 20px;
+}
+

@@ -1,0 +1,5 @@
+@import "const";
+
+@mixin setFontFamily() {
+  font-family: $primary_family;
+}
