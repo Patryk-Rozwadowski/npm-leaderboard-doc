@@ -1,4 +1,13 @@
+@import "mixins/index";
 @import "style/media";
-@import "typography/typography";
+@import "typography/index";
+@import "containers/index";
+@import "common/index";
+@import "examples/index";
+@import "reset";
 
-@import "examples/lbexample";
+.doc {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}

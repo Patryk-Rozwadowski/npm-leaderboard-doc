@@ -308,7 +308,6 @@
     "ordered-binary": "^1.2.1",
     "os-browserify": "^0.3.0",
     "pako": "^1.0.11",
-    "parcel": "^2.0.1",
     "parent-module": "^1.0.1",
     "parse-asn1": "^5.1.6",
     "parse-json": "^5.2.0",
@@ -478,12 +477,13 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
-    "parcel": "^2.0.1",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.5.1",
     "sass": "^1.45.0",
     "scss": "^0.2.4"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html --no-cache"
   },
   "repository": {
     "type": "git",

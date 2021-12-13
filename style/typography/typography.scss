@@ -1,24 +1,44 @@
 @import "const";
 @import "mixins";
 
+$font-thin: 300;
+$font-bold: 900;
 
 .doc {
-  &_header_title {
-    @include setFontFamily();
-  }
-  &_header {
-    @include setFontFamily();
-  }
-  &_primary {
-    @include setFontFamily();
-  }
-  &_secondary {
-    @include setFontFamily();
-  }
-  &_code {
-    @include setFontFamily();
-  }
+  .text {
+    &_header_title {
+      @include setFontFamily();
+      font-size: 3em;
+      text-align: center;
+    }
 
-  font-size: 20px;
+    &_header {
+      @include setFontFamily();
+    }
+
+    &_primary {
+      @include setFontFamily();
+    }
+
+    &_secondary {
+      @include setFontFamily();
+    }
+
+    &_thin {
+      font-weight: $font-thin;
+    }
+
+    &_bold {
+      font-weight: $font-bold;
+    }
+
+    &_code {
+      @include setFontFamily();
+    }
+
+    &-accent {
+      color: $accent;
+    }
+  }
 }
 
