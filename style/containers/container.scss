@@ -1,3 +1,4 @@
+@import "../const";
 @import "style/mixins/index";
 
 .doc {
@@ -15,6 +16,17 @@
     }
 
     &-code {
+      border-radius: 6px;
+      padding: $container-code-padding;
+      background-color: $container-code-color;
+
+      &-secondary {
+        background-color: $container-code-secondary-color;
+      }
+
+      &-highlight {
+        color: $code-function-color;
+      }
     }
   }
 }

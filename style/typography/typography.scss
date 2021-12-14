@@ -1,4 +1,4 @@
-@import "const";
+@import "style/const";
 @import "mixins";
 
 $font-thin: 300;
@@ -6,38 +6,52 @@ $font-bold: 900;
 
 .doc {
   .text {
-    &_header_title {
-      @include setFontFamily();
+    @include setFontFamily();
+
+    &-header-title {
       font-size: 3em;
       text-align: center;
     }
 
-    &_header {
-      @include setFontFamily();
+    &-header {
     }
 
-    &_primary {
-      @include setFontFamily();
+    &-primary {
     }
 
-    &_secondary {
-      @include setFontFamily();
+    &-secondary {
     }
 
-    &_thin {
+    &-thin {
       font-weight: $font-thin;
     }
 
-    &_bold {
+    &-bold {
       font-weight: $font-bold;
     }
 
-    &_code {
-      @include setFontFamily();
+    &-code {
+      font-family: Mononoki, sans-serif;
+
+      &-class {
+        color: $code-class-color;
+      }
+
+      &-primary {
+        color: $code-primary-color;
+      }
+
+      &-function {
+        color: $code-function-color;
+      }
+
+      &-variable {
+        color: $code-variable-color;
+      }
     }
 
     &-accent {
-      color: $accent;
+      color: $accent-color;
     }
   }
 }
