@@ -1,22 +1,25 @@
 @import "style/const";
 @import "mixins";
 
-$font-thin: 300;
-$font-bold: 900;
 
 .doc {
   .text {
     @include setFontFamily();
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
 
     &-header-title {
       font-size: 3em;
-      text-align: center;
     }
 
     &-header {
+      font-size: 2em;
     }
 
     &-primary {
+      color: $text-primary-color;
     }
 
     &-secondary {
