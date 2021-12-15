@@ -4,71 +4,87 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style/index.scss">
-
 </head>
 <body>
 <main class="doc">
     <div class="container container-center">
-        <div class="container-row container-center pd-top-50 align-bottom mg-bottom-50">
-            <h1 class="text text-header-title">Leaderboard npm package &nbsp;</h1>
+
+        <div class="container container-center pd-top-50 mg-bottom-50">
+            <h1 class="text text-header-title text-align-center">Leaderboard npm package &nbsp;</h1>
             <p class="text text_secondary text-accent"> v 1.0.0</p>
-        </div>
 
-        <div class="container-center container">
-            <h5 class="text text-header doc_thin">Installation</h5>
-        </div>
-
-        <!-- INSTALLATION GUIDE -->
-        <!-- NPM -->
-        <div class="container-center mg-bottom-50">
-            <div class="container installation-guide">
-                <h6 class="text container-center text-header text-thin">NPM</h6>
-                <div class="container container-row">
-                    <div class="container-code container-code-secondary">
-                        <p class="text-code">
-                            <span class="text-code-primary">npm install leaderboard</span>
-                        </p>
+            <div class="container-row container-center">
+                <div class="container-center">
+                    <div class="container container-center  margin-center width-50">
+                        <h3 class="text text-align-center text-header">Description</h3>
+                        <p class="text text-align-center text-primary">A simple, lightweight and generic
+                            leaderboard
+                            module created in
+                            vanilla javascript. You can create multiple leaderboards on one page and set different
+                            options
+                            for
+                            each.
+                            Visit
+                            the <a
+                                    href="https://github.com/Patryk-Rozwadowski/npm-leaderboard"
+                                    class="text text-code-primary">
+                                Github Page
+                            </a> to see the module API.</p>
                     </div>
-                    <button class="btn">
-                        <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
-                    </button>
+
                 </div>
+
+                <div class="container container-center mg-bottom-25 width-50">
+                    <!-- INSTALLATION GUIDE -->
+                    <!-- NPM -->
+                    <div>
+                        <div class="container installation-guide">
+                            <h6 class="text text-header text-thin text-small">NPM</h6>
+                            <div class="container container-row">
+                                <div class="container-code container-code-secondary">
+                                    <pre id="npm-install" class="text">npm install leaderboard</pre>
+                                </div>
+                                <button class="btn mg-left-30">
+                                    <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- YARN -->
+                    <div>
+                        <div class="container installation-guide">
+                            <h6 class="text text-header text-thin text-small">YARN</h6>
+                            <div class="container container-row">
+                                <div class="container-code container-code-secondary">
+                                    <pre id="yarn-install" class="text">yarn add leaderboard</pre>
+                                </div>
+                                <button class="btn mg-left-30">
+                                    <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div class="container installation-guide">
+                            <h6 class="text text-header text-thin text-small">CDN</h6>
+                            <div class="container container-row">
+                                <div class="container-code container-code-secondary">
+                                    <pre id="cdn-install" class="text">https://unpkg.com/accordion-js@3.1.1/</pre>
+                                </div>
+                                <button class="btn mg-left-30">
+                                    <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <!-- YARN -->
-        <div class="container-center mg-bottom-50">
-            <div class="container installation-guide">
-                <h6 class="text container-center text-header text-thin">yarn</h6>
-                <div class="container container-row">
-                    <div class="container-code container-code-secondary">
-                        <p class="text-code">
-                            <span class="text-code-primary">yarn add leaderboard</span>
-                        </p>
-                    </div>
-                    <button class="btn">
-                        <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container-center mg-bottom-50">
-            <div class="container installation-guide">
-                <h6 class="text container-center text-header text-thin">CDN</h6>
-                <div class="container container-row">
-                    <div class="container-code container-code-secondary">
-                        <p class="text-code">
-                            <span class="text-code-primary">https://unpkg.com/accordion-js@3.1.1/</span>
-                        </p>
-                    </div>
-                    <button class="btn">
-                        <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
-                    </button>
-                </div>
-            </div>
-        </div>
 
     </div>
 
@@ -94,7 +110,14 @@
     </div>
 
 
-    <div class="lb_root_example lb_root_example_basic"></div>
+    <section class="documentation">
+        <div class="container width-50">
+            <h5 class="text text-header">Description</h5>
+        </div>
+        <div class="container width-50">
+            <div class="lb_root_example lb_root_example_basic"></div>
+        </div>
+    </section>
 
 </main>
 

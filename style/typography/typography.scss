@@ -7,8 +7,15 @@
     @include setFontFamily();
     margin: 0;
     padding: 0;
-    text-align: center;
 
+    a {
+      font-weight: $font-bold;
+      color: $text-primary-color;
+    }
+
+    &-align-center {
+      text-align: center;
+    }
 
     &-header-title {
       font-size: 3em;
@@ -31,6 +38,10 @@
 
     &-bold {
       font-weight: $font-bold;
+    }
+
+    &-small {
+      font-size: 1em;
     }
 
     &-code {
