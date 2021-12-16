@@ -55,6 +55,10 @@
         color: $code-primary-color;
       }
 
+      &-string {
+        color: $code-string-color;
+      }
+
       &-function {
         color: $code-function-color;
       }
