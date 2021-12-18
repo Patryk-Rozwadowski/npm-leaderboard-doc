@@ -2,7 +2,7 @@
   "name": "leaderboard-demo-doc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "@patryk.rozwadowski/leaderboard": "file:../npm-leaderboard/",
     "abab": "^2.0.5",

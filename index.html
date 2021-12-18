@@ -20,7 +20,7 @@
                 <div class="container-center">
                     <div class="container container-center  margin-center width-50">
                         <h3 class="text text-align-center text-header">Description</h3>
-                        <p class="text text-align-center text-primary">A simple, lightweight and generic
+                        <span class="text text-align-center text-primary">A simple, lightweight and generic
                             leaderboard
                             module created in
                             vanilla javascript. You can create multiple leaderboards on one page and set different
@@ -32,8 +32,9 @@
                                     href="https://github.com/Patryk-Rozwadowski/npm-leaderboard"
                                     class="text text-code-primary">
                                 Github Page
-                                to see the module API.</p>
-                        <div class="separator-line mg-top-10"></div>
+                                to see the module API.</a>
+                            <span class="separator-line mg-top-10"></span>
+                        </span>
                     </div>
                 </div>
 
@@ -47,7 +48,7 @@
                             <div class="container-code container-code-secondary">
                                 <pre id="npm-install" class="text">npm install leaderboard</pre>
                             </div>
-                            <button class="btn mg-left-30">
+                            <button id="copy-npm" class="btn mg-left-30">
                                 <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
                             </button>
                         </div>
@@ -60,7 +61,7 @@
                             <div class="container-code container-code-secondary">
                                 <pre id="yarn-install" class="text">yarn add leaderboard</pre>
                             </div>
-                            <button class="btn mg-left-30">
+                            <button id="copy-yarn" class="btn mg-left-30">
                                 <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
                             </button>
                         </div>
@@ -70,9 +71,9 @@
                         <h6 class="text text-header text-small">CDN</h6>
                         <div class="container container-row">
                             <div class="container-code container-code-secondary">
-                                <pre id="cdn-install" class="text">https://unpkg.com/accordion-js@3.1.1/</pre>
+                                <pre id="cdn-install" class="text">https://unpkg.com/leaderboard@1.0.0/</pre>
                             </div>
-                            <button class="btn mg-left-30">
+                            <button id="copy-cdn" class="btn mg-left-30">
                                 <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
                             </button>
                         </div>
@@ -154,5 +155,5 @@
 
 </main>
 </body>
-<script src="index.js" type="module"></script>
+<script src="src/index.js" type="module"></script>
 </html>
