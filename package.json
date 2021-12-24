@@ -483,7 +483,7 @@
     "scss": "^0.2.4"
   },
   "scripts": {
-    "start": "parcel index.html --no-cache"
+    "start": "parcel index.html -p 12345 --no-cache"
   },
   "repository": {
     "type": "git",
