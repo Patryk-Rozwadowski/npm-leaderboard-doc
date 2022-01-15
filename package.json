@@ -4,7 +4,6 @@
   "description": "",
   "main": "src/index.js",
   "dependencies": {
-    "@patryk.rozwadowski/leaderboard": "file:../npm-leaderboard/",
     "abab": "^2.0.5",
     "abortcontroller-polyfill": "^1.7.3",
     "acorn": "^6.4.2",
@@ -252,6 +251,7 @@
     "json-stringify-safe": "^5.0.1",
     "json5": "^1.0.1",
     "jsprim": "^1.4.2",
+    "leaderboard-generic-table": "^0.0.82",
     "levn": "^0.3.0",
     "lilconfig": "^2.0.4",
     "lines-and-columns": "^1.2.4",

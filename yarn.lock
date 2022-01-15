@@ -1201,9 +1201,6 @@
     chrome-trace-event "^1.0.2"
     nullthrows "^1.1.1"
 
-"@patryk.rozwadowski/leaderboard@file:../npm-leaderboard":
-  version "1.0.0"
-
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
@@ -4219,6 +4216,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
+
+leaderboard-generic-table@^0.0.82:
+  version "0.0.82"
+  resolved "https://registry.yarnpkg.com/leaderboard-generic-table/-/leaderboard-generic-table-0.0.82.tgz#f2f58250857e971bde66bcb366cdc045a88e936c"
+  integrity sha512-r6EZFVMinwD37Dsr3hOivfQR35tahwSAxcEe9uKUuutq3Wh78+Mc1oTNjqZu6dwDLMdGufRO/bCaxEqGESLyZg==
 
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
