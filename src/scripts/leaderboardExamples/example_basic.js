@@ -1,4 +1,5 @@
-import Leaderboard from "@patryk.rozwadowski/leaderboard";
+import { Leaderboard } from "leaderboard-table";
+import "leaderboard-table/dist/leaderboard.min.css";
 
 const lbRootExampleBasic = document.querySelector(".lb_root_example_basic");
 
