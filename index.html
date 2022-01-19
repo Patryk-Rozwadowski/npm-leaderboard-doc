@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Leaderboard package demo</title>
+    <title>leaderboard-table package demo</title>
     <link rel="stylesheet" href="src/style/index.scss">
 </head>
 <body>
@@ -10,7 +10,6 @@
     <div class="container container-center">
 
         <div class="container container-center pd-top-50 mg-bottom-50">
-
             <div class="container container-center container-row mg-bottom-150">
                 <h1 class="text text-header-title text-align-center">Leaderboard npm package &nbsp;</h1>
                 <p class="text text_secondary text-accent"> v 1.0.0</p>
@@ -40,7 +39,7 @@
                         <h6 class="text text-header text-small">NPM</h6>
                         <div class="container container-row">
                             <div class="container-code container-code-secondary">
-                                <pre id="npm-install" class="text">npm install leaderboard</pre>
+                                <pre id="npm-install" class="text">npm install leaderboard-table</pre>
                             </div>
                             <button id="copy-npm" class="btn mg-left-30">
                                 <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
@@ -53,7 +52,7 @@
                         <h6 class="text text-header text-small">YARN</h6>
                         <div class="container container-row">
                             <div class="container-code container-code-secondary">
-                                <pre id="yarn-install" class="text">yarn add leaderboard</pre>
+                                <pre id="yarn-install" class="text">yarn add leaderboard-table</pre>
                             </div>
                             <button id="copy-yarn" class="btn mg-left-30">
                                 <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
@@ -62,12 +61,24 @@
                     </div>
 
                     <div class="container installation-guide mg-bottom-25">
-                        <h6 class="text text-header text-small">CDN</h6>
+                        <h6 class="text text-header text-small">CDN JS</h6>
                         <div class="container container-row">
                             <div class="container-code container-code-secondary">
-                                <pre id="cdn-install" class="text">https://unpkg.com/leaderboard@1.0.0/</pre>
+                                <pre id="cdn-install-js" class="text">https://unpkg.com/browse/leaderboard-table@1.0.3/dist/leaderboard.min.js</pre>
                             </div>
-                            <button id="copy-cdn" class="btn mg-left-30">
+                            <button id="copy-cdn-js" class="btn mg-left-30">
+                                <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="container installation-guide mg-bottom-25">
+                        <h6 class="text text-header text-small">CDN CSS</h6>
+                        <div class="container container-row">
+                            <div class="container-code container-code-secondary">
+                                <pre id="cdn-install-css" class="text">https://unpkg.com/browse/leaderboard-table@1.0.3/dist/leaderboard.min.css</pre>
+                            </div>
+                            <button id="copy-cdn-css" class="btn mg-left-30">
                                 <img class="copy-and-paste-icon" src="assets/icons/copy.svg">
                             </button>
                         </div>
@@ -84,13 +95,13 @@
     <section class="container container-row mg-top-50">
         <div class="container width-50">
             <h5 class="text text-header">Simple leaderboard</h5>
-            <p class="text text-thin width-75">orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacus nulla, laoreet
-                nec maximus. Nunc ultrices imperdiet quam, pharetra finibus mi aliquam non. Vestibulum vitae augue
-                bibendum,
-                posuere risus et, tincidunt ligula. </p>
+            <p class="text text-thin width-75">Simples leaderboard setup with default options. </p>
+            <p class="text text-thin width-75">Root field in Leaderboard class instance stands for your html container, which
+            will hold Leaderboard module. LeaderboardData will hold and parse your data, which you want to show. </p>
+
             <div class="container">
                 <div class="container">
-                    <div class="container-code width-75 mg-top-25">
+                    <div class="container-code  mg-top-25">
                     <pre class="text-code text-code-primary">
     <span class="text-code-function">const</span> usersLeaderboardRoot = document.<span class="text-code-invoke">getElementById</span>(<span
                             class="text-code-string">"users-leaderboard-root"</span>);
