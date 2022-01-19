@@ -4213,10 +4213,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-leaderboard-table@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/leaderboard-table/-/leaderboard-table-1.0.3.tgz#0e16d199c50ee9b6da1cc7ee1e991a431f200b95"
-  integrity sha512-Hf9+uZAQgbF+vb7gW7Cdz++Ka/MZTkViEZDWeL62TeNGOWXD1iLCx5VYlLD6DoL+gibtLg2yh2CVR0bQjWhlWg==
+leaderboard-table@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/leaderboard-table/-/leaderboard-table-1.0.4.tgz#b4a746de2fe265a9ff974d3a15f2dc3d9fcfbbea"
+  integrity sha512-yhno8q2Sicw6pxCAqV+KEDMd3shwdTgfYHlnyq7NIHuCCBMsnyLjjqTz+TpR8yNgb0NWGsA3vc8LcTi4YN3Pwg==
 
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
