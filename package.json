@@ -486,7 +486,8 @@
   },
   "scripts": {
     "start": "parcel index.html -p 12345 --no-cache",
-    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+    "build": "parcel build index.html --no-minify --public-url='./'",
+    "push-gh-pages": "yarn run build && push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "repository": {
     "type": "git",
