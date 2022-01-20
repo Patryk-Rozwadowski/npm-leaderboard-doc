@@ -479,11 +479,14 @@
     "@parcel/transformer-sass": "^2.0.1",
     "parcel-bundler": "^1.12.5",
     "prettier": "^2.5.1",
+    "push-dir": "^0.4.1",
     "sass": "^1.45.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "shx": "^0.3.4"
   },
   "scripts": {
-    "start": "parcel index.html -p 12345 --no-cache"
+    "start": "parcel index.html -p 12345 --no-cache",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "repository": {
     "type": "git",
