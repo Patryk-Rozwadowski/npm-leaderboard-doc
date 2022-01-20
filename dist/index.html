@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>leaderboard-table package demo</title>
+    <link rel="stylesheet" href="/style.61691a4a.css">
+<script src="/style.61691a4a.js"></script><link rel="stylesheet" href="/src.a2b27638.css"></head>
+<body>
+<main class="doc">
+    <div class="container container-center">
+
+        <div class="container container-center pd-top-50 mg-bottom-50">
+            <div class="container container-center container-row mg-bottom-150">
+                <h1 class="text text-header-title text-align-center">Leaderboard npm package &nbsp;</h1>
+            </div>
+
+            <div class="container-row container-center ">
+                <div class="container-center">
+                    <div class="container container-center  margin-center width-50">
+                        <h3 class="text text-align-center text-header">Description</h3>
+                        <span class="text text-align-center text-primary">A simple, lightweight and generic leaderboard module created in
+                            vanilla javascript. You can create multiple leaderboards on one page and set different options for each. Visit
+                            the <a href="https://github.com/Patryk-Rozwadowski/npm-leaderboard" class="text text-code-primary">
+                                Github Page
+                                to see the module API.</a>
+                            <span class="separator-line mg-top-10"></span>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="container container-center mg-bottom-25 width-50">
+                    <!-- INSTALLATION GUIDE -->
+                    <!-- NPM -->
+                    <div class="container installation-guide mg-bottom-25">
+                        <h6 class="text text-header text-small">NPM</h6>
+                        <div class="container container-row">
+                            <div class="container-code container-code-secondary">
+                                <pre id="npm-install" class="text">npm install leaderboard-table</pre>
+                            </div>
+                            <button id="copy-npm" class="btn mg-left-30">
+                                <img class="copy-and-paste-icon" src="/copy.5aef999a.svg">
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- YARN -->
+                    <div class="container installation-guide mg-bottom-25">
+                        <h6 class="text text-header text-small">YARN</h6>
+                        <div class="container container-row">
+                            <div class="container-code container-code-secondary">
+                                <pre id="yarn-install" class="text">yarn add leaderboard-table</pre>
+                            </div>
+                            <button id="copy-yarn" class="btn mg-left-30">
+                                <img class="copy-and-paste-icon" src="/copy.5aef999a.svg">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="container installation-guide mg-bottom-25">
+                        <h6 class="text text-header text-small">CDN JS</h6>
+                        <div class="container container-row">
+                            <div class="container-code container-code-secondary">
+                                <pre id="cdn-install-js" class="text">https://unpkg.com/browse/leaderboard-table@1.0.3/dist/leaderboard.min.js</pre>
+                            </div>
+                            <button id="copy-cdn-js" class="btn mg-left-30">
+                                <img class="copy-and-paste-icon" src="/copy.5aef999a.svg">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="container installation-guide mg-bottom-25">
+                        <h6 class="text text-header text-small">CDN CSS</h6>
+                        <div class="container container-row">
+                            <div class="container-code container-code-secondary">
+                                <pre id="cdn-install-css" class="text">https://unpkg.com/browse/leaderboard-table@1.0.3/dist/leaderboard.min.css</pre>
+                            </div>
+                            <button id="copy-cdn-css" class="btn mg-left-30">
+                                <img class="copy-and-paste-icon" src="/copy.5aef999a.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <h5 class="text text-header">Examples</h5>
+
+    <!--  Simple Leaderboard  -->
+    <section class="container container-row mg-top-50">
+        <div class="container width-50">
+            <h5 class="text text-header">Simple leaderboard</h5>
+            <p class="text text-thin width-75">Simples leaderboard setup with default options. </p>
+            <p class="text text-thin width-75">Root field in Leaderboard class instance stands for your html container, which
+            will hold Leaderboard module. LeaderboardData will hold and parse your data, which you want to show. </p>
+
+            <div class="container">
+                <div class="container">
+                    <div class="container-code  mg-top-25">
+                    <pre class="text-code text-code-primary">
+    <span class="text-code-function">const</span> usersLeaderboardRoot = document.<span class="text-code-invoke">getElementById</span>(<span class="text-code-string">"users-leaderboard-root"</span>);
+
+    <span class="text-code-function"> const </span> usersScoreLeaderboard = <span class="text-code-function">new</span> <span class="text-code-class">Leaderboard</span>({
+            usersLeaderboardRoot,
+            [
+                    {
+                                <span class="text-code-variable">name</span>: <span class="text-code-string">"Peter"</span>,
+                                <span class="text-code-variable">score</span>: <span class="text-code-class">20</span>
+                    },
+                    {
+                                <span class="text-code-variable">name</span>: <span class="text-code-string">"Bob"</span>,
+                                <span class="text-code-variable">score</span>: <span class="text-code-class">50</span>
+                    }
+            ]
+    })
+
+    usersLeaderboardRoot.<span class="text-code-invoke">init</span>();</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-center width-50">
+            <div class="lb_root_example lb_root_example_basic"></div>
+        </div>
+    </section>
+</main>
+</body>
+<script src="/src.a2b27638.js"></script>
+</html>
