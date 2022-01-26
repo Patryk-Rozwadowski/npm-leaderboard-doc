@@ -287,7 +287,7 @@
     "ncp": "^2.0.0",
     "nice-try": "^1.0.5",
     "node-addon-api": "^3.2.1",
-    "node-forge": "^0.10.0",
+    "node-forge": "^1.0.0",
     "node-gyp-build": "^4.3.0",
     "node-releases": "^2.0.1",
     "normalize-url": "^6.1.0",
