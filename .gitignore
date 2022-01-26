@@ -3,7 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=webstorm,node
 
 .idea
-.dist
+dist
 ### Node ###
 # Logs
 logs

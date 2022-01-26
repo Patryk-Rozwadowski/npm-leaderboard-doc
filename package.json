@@ -493,8 +493,8 @@
     "type": "git",
     "url": "git+https://github.com/Patryk-Rozwadowski/npm-leaderboard-doc.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Patryk Rozwadowski",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Patryk-Rozwadowski/npm-leaderboard-doc/issues"
   },
