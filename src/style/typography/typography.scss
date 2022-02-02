@@ -1,3 +1,4 @@
+@import "../const";
 @import "mixins";
 
 .doc {
@@ -57,6 +58,10 @@
 
       &-string {
         color: $code-string-color;
+      }//
+
+      &-comment {
+        color: $code-comment-color;
       }
 
       &-function {

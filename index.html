@@ -113,12 +113,12 @@
             {
                         <span class="text-code-variable">name</span>: <span
                     class="text-code-string">"Peter"</span>,
-                        <span class="text-code-variable">score</span>: <span class="text-code-class">20</span>
+                        <span class="text-code-variable">place</span>: <span class="text-code-class">2</span>
             },
             {
                         <span class="text-code-variable">name</span>: <span
                     class="text-code-string">"Bob"</span>,
-                        <span class="text-code-variable">score</span>: <span class="text-code-class">50</span>
+                        <span class="text-code-variable">place</span>: <span class="text-code-class">1</span>
             }
         ]
     });
@@ -144,42 +144,49 @@
                 <div class="container">
                     <div class="container-code  mg-top-25">
                     <pre class="text-code text-code-primary">
-    <span class="text-code-function">const</span> leaderboardData = [
-        {
-            <span class="text-code-variable">name</span>: <span
-                class="text-code-string">"Peter"</span>,
-            <span class="text-code-variable">score</span>: <span class="text-code-class">20</span>
-        },
-        {
-            <span class="text-code-variable">name</span>: <span
-                class="text-code-string">"Bob"</span>,
-            <span class="text-code-variable">score</span>: <span class="text-code-class">50</span>
-        }
-    ];
-
-    <span class="text-code-function">const</span> leaderboardData = [
-        {
-            <span class="text-code-variable">name</span>: <span
-                class="text-code-string">"Peter"</span>,
-            <span class="text-code-variable">score</span>: <span class="text-code-class">20</span>
-        },
-        {
-            <span class="text-code-variable">name</span>: <span
-                class="text-code-string">"Bob"</span>,
-            <span class="text-code-variable">score</span>: <span class="text-code-class">50</span>
-        }
-    ];
-
-
-
     <span class="text-code-function">const</span> usersLeaderboardRoot = document.<span class="text-code-invoke">getElementById</span>(<span
                             class="text-code-string">"users-leaderboard-root"</span>);
+
+    <span class="text-code-function">const</span> options = {
+            <span class="text-code-variable">contentForEmptyCells</span>: <span
+                class="text-code-string">"EMPTY"</span>,
+            <span class="text-code-variable">sortByPlaces</span>: <span
+                class="text-code-function">true</span>
+        };
+
+    <span class="text-code-function">const</span> leaderboardData = [
+        {
+            <span class="text-code-variable">name</span>: <span
+                class="text-code-string">"Peter"</span>,
+            <span class="text-code-variable">place</span>: <span class="text-code-class">1</span>,
+            <span class="text-code-variable">email</span>: <span class="text-code-string">"bob@coolmail.com"</span>
+        },
+        {
+            <span class="text-code-variable">name</span>: <span
+                class="text-code-string">"Bob"</span>,
+            <span class="text-code-variable">place</span>: <span class="text-code-class">3</span>,
+            <span class="text-code-variable">email</span>: <span class="text-code-string">""</span>
+        },
+        {
+            <span class="text-code-variable">name</span>: <span
+                            class="text-code-string">"Bob"</span>,
+            <span class="text-code-variable">place</span>: <span class="text-code-class">2</span>,
+            <span class="text-code-variable">email</span>: <span class="text-code-string">"nick@coolmail.com"</span>
+        },
+        {
+            <span class="text-code-variable">name</span>: <span
+                            class="text-code-string">"Bob"</span>,
+            <span class="text-code-variable">place</span>: <span class="text-code-class">4</span>,
+            <span class="text-code-variable">email</span>: <span class="text-code-string">""</span>
+        }
+    ];
 
     <span class="text-code-function">const</span> usersScoreLeaderboard = <span
                             class="text-code-function">new</span> <span
                             class="text-code-class">Leaderboard</span>({
         usersLeaderboardRoot,
-        leaderboardData
+        leaderboardData,
+        options
     });
 
     usersLeaderboardRoot.<span class="text-code-invoke">init</span>();</pre>

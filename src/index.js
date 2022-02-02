@@ -1,6 +1,6 @@
-import { lbSimple } from "./scripts/leaderboardExamples/example_basic";
 import { lbWithOptions } from "./scripts/leaderboardExamples/example_with_options";
 import "leaderboard-table/dist/leaderboard.min.css";
+import { lbSimple } from "./scripts/leaderboardExamples/example_basic";
 
 const copyNpm = {
   text: document.getElementById("npm-install"),
