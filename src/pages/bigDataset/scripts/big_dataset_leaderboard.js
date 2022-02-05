@@ -1,5 +1,5 @@
 import { Leaderboard } from "leaderboard-table";
-import data from "../../../data/MOCK_DATA.json";
+import data from "../../../../data/MOCK_DATA.json";
 
 import "leaderboard-table/dist/leaderboard.min.css";
 
